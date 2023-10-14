@@ -38,7 +38,6 @@ def get_recently_played(new_token, start_date):
     endpoint = f"{url}?limit={limit}&before={timestamp_ms}"
 
     headers ={
-        "Accept" : "application/json",
         "Authorization": f"Bearer {new_token}"
     }
 
