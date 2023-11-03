@@ -6,7 +6,6 @@ import spotipy.util as util
 sp = spotipy.Spotify() 
 import requests
 import base64
-import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import json
 from requests import post, get
