@@ -1,31 +1,7 @@
-from dotenv import load_dotenv
-import os
-import spotipy 
-from spotipy.oauth2 import SpotifyClientCredentials 
-import spotipy.util as util
-sp = spotipy.Spotify() 
 import requests
-import base64
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
 import json
 from requests import post, get
 from datetime import datetime
-import sqlalchemy
-import pandas as pd 
-from sqlalchemy.orm import sessionmaker
-from datetime import datetime
-import datetime
-import sqlite3
-import sqlalchemy
-import pandas as pd 
-from sqlalchemy.orm import sessionmaker
-import requests
-import json
-from datetime import datetime
-import datetime
-import sqlite3
-
 
 token = "........................"
 access_token =token
